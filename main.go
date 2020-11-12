@@ -1,24 +1,22 @@
 package main
 
-func main()  {
-	tv := &tv {
-		isOn: false,
+func main() {
+	tv := &tv{
+		isOn:   false,
 		volume: 10,
 	}
 
-	hel := &hello{isOn: true}
-
 	// Instantiate commands
 	onCommand := &onCommand{
-		device: hel,
+		device: tv,
 	}
 	offCommand := &offCommand{
 		device: tv,
 	}
-	increaseVolumeCommand := &increaseVolumeCommand {
+	increaseVolumeCommand := &increaseVolumeCommand{
 		device: tv,
 	}
-	decreaseVolumeCommand := &decreaseVolumeCommand {
+	decreaseVolumeCommand := &decreaseVolumeCommand{
 		device: tv,
 	}
 
@@ -29,10 +27,10 @@ func main()  {
 	offButton := &button{
 		command: offCommand,
 	}
-	increaseVolumeButton := &button {
+	increaseVolumeButton := &button{
 		command: increaseVolumeCommand,
 	}
-	decreaseVolumeButton := &button {
+	decreaseVolumeButton := &button{
 		command: decreaseVolumeCommand,
 	}
 
