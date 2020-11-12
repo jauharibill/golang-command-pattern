@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9c7339e-6365-4eea-8770-d4dc12215125" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/main/command.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/dbms.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/mysql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/postgresql.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/sqlserver.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/trigger.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +42,28 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
+  <component name="RunManager">
+    <configuration name="go build golang-command-pattern" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="command-pattern" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="golang-command-pattern" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,9 +73,51 @@
       <option name="presentableId" value="Default" />
       <updated>1605185805224</updated>
     </task>
+    <task id="LOCAL-00001" summary="remove dev stuff">
+      <created>1605186095697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605186095697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="remove dev stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove dev stuff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605186192707">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1605186192707" />
+    <state x="297" y="25" key="CommitChangelistDialog2" timestamp="1605186095542">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="297" y="25" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1605186095542" />
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom" timestamp="1605189168095">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605189168095" />
+    <state width="1398" height="220" key="GridCell.Tab.0.center" timestamp="1605189168094">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605189168094" />
+    <state width="1398" height="220" key="GridCell.Tab.0.left" timestamp="1605189168093">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605189168093" />
+    <state width="1398" height="220" key="GridCell.Tab.0.right" timestamp="1605189168094">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="220" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605189168094" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1605186100750">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605186100750" />
   </component>
 </project>

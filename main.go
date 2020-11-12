@@ -2,7 +2,7 @@ package main
 
 func main() {
 	tv := &tv{
-		isOn:   false,
+		isOn:   true,
 		volume: 10,
 	}
 
